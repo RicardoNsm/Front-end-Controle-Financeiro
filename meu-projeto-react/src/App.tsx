@@ -1,13 +1,12 @@
 
 import './App.css'
+import { CardSaldo } from './componentes/CardSaldo'
 
 function App() {
  
   return (
     <>
-     <h1 className=''>
-      Controle Fincanceiro
-     </h1>
+     <CardSaldo/>
     </>
   )
 }
