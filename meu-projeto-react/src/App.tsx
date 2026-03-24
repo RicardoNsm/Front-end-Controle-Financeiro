@@ -1,12 +1,14 @@
 
 import './App.css'
-import { CardSaldo } from './componentes/CardSaldo'
+import Home from './pages/Home'
+import TelaLogin from './pages/TelaLogin'
 
 function App() {
  
   return (
     <>
-     <CardSaldo/>
+     {/* <TelaLogin/> */}
+     <Home/>
     </>
   )
 }
