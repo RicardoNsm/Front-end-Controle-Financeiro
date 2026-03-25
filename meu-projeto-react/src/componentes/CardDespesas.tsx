@@ -39,8 +39,8 @@ export const CardDespesas = () => {
        fetchUserSummary(); 
     }, [])
     return(
-        <div className="p-10">
-            <div className="flex flex-col h-50 w-80 bg-gradient-to-r from-[#F0524F] to-[#810E0E] rounded-xl border overflow-hidden">
+        <div className="">
+            <div className="flex flex-col h-50 w-80 bg-gradient-to-r from-[#F0524F] to-[#810E0E] rounded-xl border border-[#C5C5C5] overflow-hidden shadow-xl">
                 <h1 className="p-4 font-bold text-2xl text-white">
                     Despesas
                 </h1>
